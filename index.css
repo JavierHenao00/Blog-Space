@@ -1,0 +1,82 @@
+body,html{
+    background-color:bisque;
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    ;
+}
+
+h1{
+    color: white;
+}
+
+#blog-list{
+ padding: 2em 0.8em 0.8em;
+}
+
+hr{
+    border-color: rgb(48, 47, 47);
+}
+
+#form-blog{
+    padding: 5em 2em 2em;
+    margin: 0 auto;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#title-post,#body-post{
+    margin-bottom: 0.9em;
+}
+
+#container-form{
+    
+    background-color: rgb(128, 27, 27);
+}
+
+label{
+    color: wheat;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0.3em;
+}
+
+#title-post{
+    border-radius: 18px;
+    border: none;
+    height: 2em;
+}
+
+#body-post{
+    border-radius: 18px;
+    height: 7em;
+}
+
+h3{
+    color:rgb(156, 25, 25); 
+    font-weight: bolder;
+}
+
+button{
+    font-size: 1.2rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.5em  0.2em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    color:rgb(156, 25, 25); 
+    font-weight: bolder;
+}
+
